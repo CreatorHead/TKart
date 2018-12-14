@@ -1,0 +1,27 @@
+WSDL Links
+	http://localhost:8881/sellers/services/ProductInfoService?wsdl
+
+	http://localhost:8881/sellers/services/ViewCategoryNames?wsdl
+
+	http://localhost:8881/sellers/services/ViewShippingDetails?wsdl
+
+	http://localhost:8881/sellers/services/InsertDeliveryDetails?wsdl
+
+	http://localhost:8881/sellers/services/CategoryInsert?wsdl
+
+	http://localhost:8881/sellers/services/ProductInsert?wsdl
+
+	http://localhost:8881/sellers/services/InsertOfferService?wsdl
+
+	http://localhost:8881/sellers/services/DeleteShipToDetails?wsdl
+
+	http://localhost:8881/sellers/services/UpdatingShipToDetailsService?wsdl
+
+	http://localhost:8881/sellers/services/ViewProductOffer?wsdl
+
+	http://localhost:8881/sellers/services/UpdateProductService?wsdl
+
+	http://localhost:8881/sellers/services/DeleteProductService?wsdl
+
+	http://localhost:8881/sellers/services/UpdateOffersService?wsdl
+	

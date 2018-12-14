@@ -1,0 +1,67 @@
+* Searching info on TKart_Seller Application
+	JSON Response (GET)
+		http://localhost:8080/TKart_Sellers/rest/services/json/search?key=mobiles
+	XML Response (GET)
+		http://localhost:8080/TKart_Sellers/rest/services/xml/search?key=mobiles
+
+
+* Viewing CategoryDetails 
+	JSON Response (GET)
+	http://localhost:8080/TKart_Sellers/rest/services/viewCat
+
+
+* Insert Catagory (PUT)
+	Form Param:
+		categoryName=?
+		subCategoryName=?
+
+	http://localhost:8080/TKart_Sellers/rest/services/insertCategory
+
+
+* ViewShippingDetails (GET)
+ 	JSON Response
+ 	http://localhost:8080/TKart_Sellers/rest/services/shippingDetails
+
+
+ * Inserting Shipping Details (PUT)
+	 Form Param:
+		pincode=?
+		tax=?
+		deliveryCharges=?
+
+ 	http://localhost:8080/TKart_Sellers/rest/services/insertShippingDetails
+
+
+* Updating Shipping Details (POST)
+	Form Param
+		pincode=?
+		tax=?
+		deliveryCharges=?
+
+	http://localhost:8080/TKart_Sellers/rest/services/updateShippingDetails
+
+
+* Deleting Shipping Details (DELETE)
+	Form Param
+		pincode=?
+
+	http://localhost:8080/TKart_Sellers/rest/services/deleteShippingDetails
+
+* Creating Profile (PUT)
+	Form Param
+		firstName=?
+		middleName=?
+		lastName=?
+		phone=?
+		type=? (N for Normal User)
+		email=?
+		password1=?
+		password2=?
+
+	http://localhost:8080/TKart_Authentication/rest/services/createProfile
+
+* Login to the Application (POST)
+	Form Param
+		email=?
+		password=?
+	http://localhost:8080/TKart_Authentication/rest/services/xml/login
